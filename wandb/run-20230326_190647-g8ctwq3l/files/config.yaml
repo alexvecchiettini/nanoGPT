@@ -1,0 +1,126 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.14.0
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.9.13
+    start_time: 1679872007.345227
+    t:
+      1:
+      - 1
+      - 55
+      2:
+      - 1
+      - 55
+      3:
+      - 13
+      - 16
+      - 23
+      4: 3.9.13
+      5: 0.14.0
+      8:
+      - 3
+      - 5
+always_save_checkpoint:
+  desc: null
+  value: false
+backend:
+  desc: null
+  value: nccl
+batch_size:
+  desc: null
+  value: 64
+beta1:
+  desc: null
+  value: 0.9
+beta2:
+  desc: null
+  value: 0.99
+bias:
+  desc: null
+  value: false
+block_size:
+  desc: null
+  value: 256
+compile:
+  desc: null
+  value: true
+dataset:
+  desc: null
+  value: harrypotter_char
+decay_lr:
+  desc: null
+  value: true
+device:
+  desc: null
+  value: cuda
+dropout:
+  desc: null
+  value: 0.2
+dtype:
+  desc: null
+  value: bfloat16
+eval_interval:
+  desc: null
+  value: 250
+eval_iters:
+  desc: null
+  value: 200
+eval_only:
+  desc: null
+  value: false
+grad_clip:
+  desc: null
+  value: 1.0
+gradient_accumulation_steps:
+  desc: null
+  value: 5
+init_from:
+  desc: null
+  value: scratch
+learning_rate:
+  desc: null
+  value: 0.01
+log_interval:
+  desc: null
+  value: 10
+lr_decay_iters:
+  desc: null
+  value: 5000
+max_iters:
+  desc: null
+  value: 2500
+min_lr:
+  desc: null
+  value: 0.001
+n_embd:
+  desc: null
+  value: 384
+n_head:
+  desc: null
+  value: 6
+n_layer:
+  desc: null
+  value: 6
+out_dir:
+  desc: null
+  value: out-harrypotter-char
+wandb_log:
+  desc: null
+  value: true
+wandb_project:
+  desc: null
+  value: harrypotter-char
+wandb_run_name:
+  desc: null
+  value: mini-gpt
+warmup_iters:
+  desc: null
+  value: 100
+weight_decay:
+  desc: null
+  value: 0.1

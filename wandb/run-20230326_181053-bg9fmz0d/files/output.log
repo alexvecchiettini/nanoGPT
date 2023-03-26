@@ -1,0 +1,135 @@
+
+step 0: train loss 4.0531, val loss 4.0983
+iter 0: loss 4.0315, time 31224.73ms, mfu -100.00%
+iter 1: loss 4.0805, time 25125.50ms, mfu -100.00%
+iter 2: loss 3.1748, time 23755.02ms, mfu -100.00%
+iter 3: loss 3.2607, time 23812.72ms, mfu -100.00%
+iter 4: loss 3.3780, time 23809.10ms, mfu -100.00%
+step 5: train loss 3.2284, val loss 3.2497
+saving checkpoint to out-harrypotter
+iter 5: loss 3.7108, time 28207.38ms, mfu 1.19%
+iter 6: loss 2.9261, time 23806.03ms, mfu 1.21%
+iter 7: loss 3.1829, time 23776.21ms, mfu 1.23%
+iter 8: loss 3.4775, time 23784.55ms, mfu 1.25%
+iter 9: loss 3.1364, time 23768.93ms, mfu 1.27%
+step 10: train loss 3.0006, val loss 3.0773
+saving checkpoint to out-harrypotter
+iter 10: loss 3.3879, time 28178.47ms, mfu 1.26%
+iter 11: loss 3.1155, time 23813.41ms, mfu 1.27%
+iter 12: loss 2.9565, time 23848.73ms, mfu 1.29%
+iter 13: loss 2.8929, time 23815.47ms, mfu 1.30%
+iter 14: loss 3.1661, time 23855.05ms, mfu 1.31%
+step 15: train loss 2.9126, val loss 2.9839
+saving checkpoint to out-harrypotter
+iter 15: loss 2.7630, time 28038.27ms, mfu 1.30%
+iter 16: loss 2.9375, time 23857.89ms, mfu 1.31%
+iter 17: loss 2.7960, time 23832.31ms, mfu 1.32%
+iter 18: loss 3.3454, time 23848.22ms, mfu 1.33%
+iter 19: loss 3.2004, time 23843.44ms, mfu 1.34%
+step 20: train loss 2.8467, val loss 2.8765
+saving checkpoint to out-harrypotter
+iter 20: loss 2.9002, time 28328.88ms, mfu 1.32%
+iter 21: loss 2.9129, time 23863.24ms, mfu 1.33%
+iter 22: loss 2.9308, time 23849.24ms, mfu 1.34%
+iter 23: loss 2.3659, time 23853.78ms, mfu 1.34%
+iter 24: loss 3.2375, time 23886.15ms, mfu 1.35%
+step 25: train loss 2.7690, val loss 2.8594
+saving checkpoint to out-harrypotter
+iter 25: loss 3.0041, time 28018.04ms, mfu 1.33%
+iter 26: loss 2.4789, time 23868.61ms, mfu 1.34%
+iter 27: loss 2.6350, time 23851.83ms, mfu 1.35%
+iter 28: loss 2.4858, time 23850.16ms, mfu 1.35%
+iter 29: loss 2.9360, time 23882.01ms, mfu 1.36%
+step 30: train loss 2.7743, val loss 2.7961
+saving checkpoint to out-harrypotter
+iter 30: loss 2.7688, time 28135.26ms, mfu 1.34%
+iter 31: loss 2.6963, time 23921.36ms, mfu 1.35%
+iter 32: loss 2.9987, time 23895.37ms, mfu 1.35%
+iter 33: loss 2.5087, time 23832.10ms, mfu 1.36%
+iter 34: loss 2.5623, time 23868.22ms, mfu 1.36%
+step 35: train loss 2.7347, val loss 2.7225
+saving checkpoint to out-harrypotter
+iter 35: loss 3.3300, time 28008.38ms, mfu 1.35%
+iter 36: loss 2.6986, time 23914.54ms, mfu 1.35%
+iter 37: loss 2.7936, time 23892.01ms, mfu 1.36%
+iter 38: loss 2.6541, time 23845.63ms, mfu 1.36%
+iter 39: loss 2.3014, time 23894.15ms, mfu 1.37%
+step 40: train loss 2.6870, val loss 2.7310
+iter 40: loss 2.4172, time 26409.40ms, mfu 1.36%
+iter 41: loss 2.4644, time 23922.21ms, mfu 1.36%
+iter 42: loss 2.2919, time 23882.06ms, mfu 1.37%
+iter 43: loss 2.9815, time 23839.38ms, mfu 1.37%
+iter 44: loss 3.0842, time 23884.16ms, mfu 1.37%
+step 45: train loss 2.6575, val loss 2.8083
+iter 45: loss 2.3583, time 26406.25ms, mfu 1.36%
+iter 46: loss 2.3553, time 23932.77ms, mfu 1.37%
+iter 47: loss 2.6359, time 23884.17ms, mfu 1.37%
+iter 48: loss 2.8890, time 23862.24ms, mfu 1.37%
+iter 49: loss 2.6724, time 23902.38ms, mfu 1.38%
+step 50: train loss 2.6333, val loss 2.6730
+saving checkpoint to out-harrypotter
+iter 50: loss 3.1248, time 28101.26ms, mfu 1.36%
+iter 51: loss 2.8796, time 23917.74ms, mfu 1.36%
+iter 52: loss 3.2467, time 23864.49ms, mfu 1.37%
+iter 53: loss 2.6639, time 23855.09ms, mfu 1.37%
+iter 54: loss 3.3377, time 23893.04ms, mfu 1.37%
+step 55: train loss 2.6444, val loss 2.7579
+iter 55: loss 2.6259, time 26403.47ms, mfu 1.36%
+iter 56: loss 3.1100, time 23915.39ms, mfu 1.37%
+iter 57: loss 2.9264, time 23856.69ms, mfu 1.37%
+iter 58: loss 2.9012, time 23854.95ms, mfu 1.38%
+iter 59: loss 3.0510, time 23892.73ms, mfu 1.38%
+step 60: train loss 2.5390, val loss 2.6845
+iter 60: loss 2.4568, time 26399.59ms, mfu 1.37%
+iter 61: loss 2.3867, time 23893.10ms, mfu 1.37%
+iter 62: loss 3.1186, time 23850.64ms, mfu 1.37%
+iter 63: loss 2.7035, time 23858.14ms, mfu 1.38%
+iter 64: loss 3.0957, time 23894.48ms, mfu 1.38%
+step 65: train loss 2.5946, val loss 2.6549
+saving checkpoint to out-harrypotter
+iter 65: loss 2.8357, time 28029.03ms, mfu 1.36%
+iter 66: loss 2.5421, time 23898.79ms, mfu 1.37%
+iter 67: loss 2.6839, time 23832.95ms, mfu 1.37%
+iter 68: loss 2.8898, time 23852.25ms, mfu 1.37%
+iter 69: loss 2.7884, time 23905.50ms, mfu 1.38%
+step 70: train loss 2.6095, val loss 2.6488
+saving checkpoint to out-harrypotter
+iter 70: loss 3.0574, time 28139.02ms, mfu 1.36%
+iter 71: loss 2.8357, time 23886.21ms, mfu 1.36%
+iter 72: loss 2.4378, time 23825.39ms, mfu 1.37%
+iter 73: loss 2.9234, time 23856.26ms, mfu 1.37%
+iter 74: loss 2.7196, time 23908.19ms, mfu 1.37%
+step 75: train loss 2.5897, val loss 2.6521
+iter 75: loss 2.3740, time 26387.98ms, mfu 1.36%
+iter 76: loss 2.7974, time 23888.65ms, mfu 1.37%
+iter 77: loss 2.8213, time 23832.54ms, mfu 1.37%
+iter 78: loss 2.6412, time 23863.99ms, mfu 1.38%
+iter 79: loss 2.8068, time 23902.37ms, mfu 1.38%
+step 80: train loss 2.4867, val loss 2.6074
+saving checkpoint to out-harrypotter
+iter 80: loss 2.6608, time 29405.98ms, mfu 1.35%
+iter 81: loss 3.0439, time 23873.78ms, mfu 1.36%
+iter 82: loss 2.2672, time 23829.68ms, mfu 1.36%
+iter 83: loss 2.2179, time 23880.70ms, mfu 1.37%
+iter 84: loss 2.5759, time 23923.90ms, mfu 1.37%
+step 85: train loss 2.5539, val loss 2.6244
+iter 85: loss 2.5084, time 26393.26ms, mfu 1.36%
+iter 86: loss 2.4228, time 23886.63ms, mfu 1.37%
+iter 87: loss 2.7667, time 23850.32ms, mfu 1.37%
+iter 88: loss 2.5543, time 23890.36ms, mfu 1.37%
+iter 89: loss 2.7680, time 23923.77ms, mfu 1.38%
+step 90: train loss 2.5026, val loss 2.7266
+iter 90: loss 2.7662, time 26396.19ms, mfu 1.37%
+iter 91: loss 2.7397, time 23869.96ms, mfu 1.37%
+iter 92: loss 2.7922, time 23845.98ms, mfu 1.37%
+iter 93: loss 2.4870, time 23884.02ms, mfu 1.38%
+iter 94: loss 2.0953, time 23931.92ms, mfu 1.38%
+step 95: train loss 2.5076, val loss 2.6247
+iter 95: loss 2.2822, time 26396.56ms, mfu 1.37%
+iter 96: loss 2.2964, time 23858.83ms, mfu 1.37%
+iter 97: loss 2.6938, time 23842.73ms, mfu 1.38%
+iter 98: loss 2.5682, time 23890.63ms, mfu 1.38%
+iter 99: loss 2.4338, time 23934.39ms, mfu 1.38%
+step 100: train loss 2.5495, val loss 2.5897
+saving checkpoint to out-harrypotter
+iter 100: loss 2.5145, time 28273.28ms, mfu 1.36%

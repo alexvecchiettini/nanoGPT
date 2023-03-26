@@ -3,7 +3,7 @@ import time
 out_dir = 'out-harrypotter'
 eval_interval = 5
 eval_iters = 40
-wandb_log = False # feel free to turn on
+wandb_log = True # feel free to turn on
 wandb_project = 'harrypotter'
 wandb_run_name = 'ft-' + str(time.time())
 
@@ -19,7 +19,7 @@ always_save_checkpoint = False
 batch_size = 1
 block_size = 512
 gradient_accumulation_steps = 32
-max_iters = 20
+max_iters = 100
 
 # finetune at constant LR
 learning_rate = 3e-5

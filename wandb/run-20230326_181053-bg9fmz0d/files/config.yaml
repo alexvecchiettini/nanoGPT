@@ -1,0 +1,132 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.14.0
+    framework: huggingface
+    huggingface_version: 4.27.3
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.9.13
+    start_time: 1679868653.247893
+    t:
+      1:
+      - 1
+      - 11
+      - 49
+      - 55
+      2:
+      - 1
+      - 11
+      - 49
+      - 55
+      3:
+      - 13
+      - 16
+      - 23
+      4: 3.9.13
+      5: 0.14.0
+      6: 4.27.3
+      8:
+      - 3
+      - 5
+always_save_checkpoint:
+  desc: null
+  value: false
+backend:
+  desc: null
+  value: nccl
+batch_size:
+  desc: null
+  value: 1
+beta1:
+  desc: null
+  value: 0.9
+beta2:
+  desc: null
+  value: 0.95
+bias:
+  desc: null
+  value: false
+block_size:
+  desc: null
+  value: 512
+compile:
+  desc: null
+  value: true
+dataset:
+  desc: null
+  value: harrypotter
+decay_lr:
+  desc: null
+  value: false
+device:
+  desc: null
+  value: cuda
+dropout:
+  desc: null
+  value: 0.1
+dtype:
+  desc: null
+  value: bfloat16
+eval_interval:
+  desc: null
+  value: 5
+eval_iters:
+  desc: null
+  value: 40
+eval_only:
+  desc: null
+  value: false
+grad_clip:
+  desc: null
+  value: 1.0
+gradient_accumulation_steps:
+  desc: null
+  value: 32
+init_from:
+  desc: null
+  value: gpt2
+learning_rate:
+  desc: null
+  value: 3.0e-05
+log_interval:
+  desc: null
+  value: 1
+lr_decay_iters:
+  desc: null
+  value: 600000
+max_iters:
+  desc: null
+  value: 100
+min_lr:
+  desc: null
+  value: 6.0e-05
+n_embd:
+  desc: null
+  value: 768
+n_head:
+  desc: null
+  value: 12
+n_layer:
+  desc: null
+  value: 12
+out_dir:
+  desc: null
+  value: out-harrypotter
+wandb_log:
+  desc: null
+  value: true
+wandb_project:
+  desc: null
+  value: harrypotter
+wandb_run_name:
+  desc: null
+  value: ft-1679868336.236224
+warmup_iters:
+  desc: null
+  value: 2000
+weight_decay:
+  desc: null
+  value: 0.1

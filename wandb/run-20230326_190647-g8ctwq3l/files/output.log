@@ -1,0 +1,10 @@
+
+step 0: train loss 4.6713, val loss 4.6772
+Traceback (most recent call last):
+  File "C:\Users\Alexv\Desktop\School_projects\Math for DL II\nanoGPT\train.py", line 293, in <module>
+    scaler.scale(loss).backward()
+  File "C:\Users\Alexv\Desktop\School_projects\DL I\pytorch_GPU\lib\site-packages\torch\_tensor.py", line 487, in backward
+    torch.autograd.backward(
+  File "C:\Users\Alexv\Desktop\School_projects\DL I\pytorch_GPU\lib\site-packages\torch\autograd\__init__.py", line 200, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 48.00 MiB (GPU 0; 4.00 GiB total capacity; 3.37 GiB already allocated; 0 bytes free; 3.46 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
