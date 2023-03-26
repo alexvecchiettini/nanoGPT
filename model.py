@@ -207,7 +207,10 @@ class GPT(nn.Module):
         self.config.block_size = block_size
         self.transformer.wpe.weight = nn.Parameter(self.transformer.wpe.weight[:block_size])
         for block in self.transformer.h:
-            block.attn.bias = block.attn.bias[:,:,:block_size,:block_size]
+            try:
+                block.attn.bias = block.attn.bias[:,:,:block_size,:block_size]
+            except:
+                print("no bias")
 
     @classmethod
     def from_pretrained(cls, model_type, override_args=None):
