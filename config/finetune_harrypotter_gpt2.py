@@ -8,7 +8,7 @@ wandb_project = 'harrypotter'
 wandb_run_name = 'ft-' + str(time.time())
 
 dataset = 'harrypotter'
-init_from = 'gpt2' # this is the largest GPT-2 model
+init_from = 'gpt2' # this is the smallest GPT-2 model
 
 # only save checkpoints if the validation loss improves
 always_save_checkpoint = False
