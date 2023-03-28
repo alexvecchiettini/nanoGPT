@@ -1,0 +1,52 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.9.13",
+    "heartbeatAt": "2023-03-26T23:12:59.830207",
+    "startedAt": "2023-03-26T23:12:59.372207",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        ".\\config\\train_harrypotter_char.py"
+    ],
+    "state": "running",
+    "program": "C:\\Users\\Alexv\\Desktop\\School_projects\\Math for DL II\\nanoGPT\\train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/alexvecchiettini/nanoGPT.git",
+        "commit": "f14981762d0728c4abcca99b371b16e7b0cf9045"
+    },
+    "email": "alex.vecchiettini@gmail.com",
+    "root": "C:/Users/Alexv/Desktop/School_projects/Math for DL II/nanoGPT",
+    "host": "MSI",
+    "username": "Alexv",
+    "executable": "C:\\Users\\Alexv\\Desktop\\School_projects\\DL I\\pytorch_GPU\\Scripts\\python.exe",
+    "cpu_count": 14,
+    "cpu_count_logical": 20,
+    "cpu_freq": {
+        "current": 2000.0,
+        "min": 0.0,
+        "max": 2000.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2000.0,
+            "min": 0.0,
+            "max": 2000.0
+        }
+    ],
+    "disk": {
+        "total": 933.8847618103027,
+        "used": 296.9526901245117
+    },
+    "gpu": "NVIDIA GeForce RTX 3050 Ti Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3050 Ti Laptop GPU",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 31.707191467285156
+    }
+}
