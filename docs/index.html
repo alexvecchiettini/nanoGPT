@@ -15043,7 +15043,7 @@ This is a configuration file, loaded by the <strong>'configurator.py'</strong> s
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><strong>A. GPU usage graphs</strong></p>
+<p><strong>B. GPU usage graphs</strong></p>
 <img src="GPU_usage_finetune.png" alt="GPU usage" />
 <p>As we can see the GPU memory was fully utilized from start to finish even with this smaller GPT2 model but slightly less time was spent accessing that memory compared to the character level model previously built.</p>
 
@@ -15070,17 +15070,23 @@ This is a configuration file, loaded by the <strong>'configurator.py'</strong> s
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>The following graphs were created on <a href="https://wandb.ai/">https://wandb.ai/</a> platform.</p>
 <p>We used this platform to keep track of our system metrics, predictions and losses</p>
-<h4 id="Graphs-for-Character-level-GPT:">Graphs for Character-level GPT:<a class="anchor-link" href="#Graphs-for-Character-level-GPT:">&#182;</a></h4><p><strong>A. Iteration vs Step</strong></p>
+<h4 id="Graphs-for-Character-level-GPT:">Graphs for Character-level GPT:<a class="anchor-link" href="#Graphs-for-Character-level-GPT:">&#182;</a></h4><p><strong>C. Iteration vs Step</strong></p>
+<blockquote>
+<p>Evaluaion was made every 250 iterations as it's clearly visible from this graph.</p>
+</blockquote>
 <img src="harrypotter_char_iter.png" alt="Iteration vs Step" />
-<p><strong>B. Train loss vs Step</strong></p>
+<p><strong>D. Train loss vs Step</strong></p>
 <img src="harrypotter_char_train_loss.png" alt="Train loss vs Step" />
-<p><strong>C. Val loss vs Step</strong></p>
+<p><strong>E. Val loss vs Step</strong></p>
 <img src="harrypotter_char_val_loss.png" alt="Val loss vs Step" />
-<h4 id="Graphs-for-pre-trained-GPT-2:">Graphs for pre-trained GPT-2:<a class="anchor-link" href="#Graphs-for-pre-trained-GPT-2:">&#182;</a></h4><p><strong>A. Iteration vs Step</strong></p>
+<h4 id="Graphs-for-pre-trained-GPT-2:">Graphs for pre-trained GPT-2:<a class="anchor-link" href="#Graphs-for-pre-trained-GPT-2:">&#182;</a></h4><p><strong>F. Iteration vs Step</strong></p>
+<blockquote>
+<p>Evaluaion was made every 5 iterations as it's clearly visible from this graph.</p>
+</blockquote>
 <img src="harrypotter_gpt2_iter.png" alt="Iteration vs Step" />
-<p><strong>B. Train loss vs Step</strong></p>
+<p><strong>G. Train loss vs Step</strong></p>
 <img src="harrypotter_gpt2_train_loss.png" alt="Train loss vs Step" />
-<p><strong>C. Val loss vs Step</strong></p>
+<p><strong>H. Val loss vs Step</strong></p>
 <img src="harrypotter_gpt2_val_loss.png" alt="Val loss vs Step" />
 
 </div>
@@ -15104,20 +15110,39 @@ This is a configuration file, loaded by the <strong>'configurator.py'</strong> s
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>As we can see from the above results the loss for the character level model is lower then the of the pretrained GPT2 model. Two main reasons come to mind to motivate these results:</p>
+<ul>
+<li>the character-level was trained for many more iterations (2500 vs 100) due to the leaner nature of the model itself,</li>
+<li>the amount of weights in the larger network and the many rounds of pretraining will take a lot of iterations to be tweaked and generate a more &quot;Harry Potter like&quot; result.</li>
+</ul>
+<p>One further observation is that already, after 100 iterations the loss stopped improving and plateaued. This seems to indicate that it might actually not be able to reach better results. Furthermore the character-level model started to overfit as we can see in figure D and E validation loss stopped improving while, even if slightly the training loss kept improving.</p>
+<br>
+A more clear influence of J.K. Rowling's work is also evident in the text produced as we are now going to see.
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <ol>
 <li>Finetuning of GPT-2 gave results that were more understandable from the start and became more relevant to Harry Potter as iterations increases.</li>
 </ol>
-<p>Following is the output comparison of <strong>GPT-2's 5 iteration vs 100 iteration:</strong></p>
+<p>Following is the output comparison of <strong>GPT-2 after 5 iteration vs 100 iteration:</strong></p>
 <p><img src="gpt2_5iter.png" alt="gpt2_5iter" width="500" /> <img src="gpt2_100iter.png" alt="gpt2_100iter" width="500"/></p>
 <ol start="2">
-<li>The model which was built from scratch (Character-level GPT) was barely readable at the begining but became more relevant to Harry Potter as iterations increases.</li>
+<li>The model which was built from scratch (Character-level GPT) was barely readable at the begining but it's Harry Potter's influence was immediately clear.</li>
 </ol>
-<p>Following is the output comparison of <strong>Character-level GPT's 250 iteration vs 2000 iteration:</strong></p>
+<p>Following is the output comparison of <strong>Character-level GPT after 250 iteration vs 2000 iteration:</strong></p>
 <p><img src="char_gpt_250iter.png" alt="char_gpt_250iter" width="500" /> <img src="char_gpt_2000iter.png" alt="char_gpt_2000iter" width="500"/></p>
 <ol start="3">
 <li>Finetuning (GPT-2) improved it's relevance to Harry Potter books over the iterations while the model built from the scratch (Character-level GPT) became more readable and started to vageuly make sense.</li>
 </ol>
-<p>Following is the output comparison of <strong>best of two models i.e. GPT-2's 100 iteration vs Character-level GPT's 2000 iteration:</strong></p>
+<p>Following is the output comparison of <strong>best of two models i.e. GPT-2 after 100 iteration vs Character-level GPT after 2000 iteration:</strong></p>
 <p><img src="gpt2_100iter.png" alt="gpt2_100iter" width="500"/> <img src="char_gpt_2000iter.png" alt="char_gpt_2000iter" width="500"/></p>
 
 </div>
