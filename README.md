@@ -1,3 +1,12 @@
+# Project 1
+
+Our project starts from a fork of Karpathy's work, a few additions and modifications have been made to accomodate our scope of training the model locally on our GPU and use Harry Potter's books for training.
+
+The notebook explaining our process is available in './report/report.ipynb', the github pages link is https://alexvecchiettini.github.io/nanoGPT/ and the trained models are available at https://drive.google.com/drive/folders/1YgFnsp3T7jTuxzBLXdbJx1X8uHsHqxT_?usp=sharing. 
+In order to use those models please download them into the respective folders:<br>
+- 'out-harrypotter' for the finetuned gpt2 model, the larger one
+- 'out-harrypotter-char' for the character-level model, the smaller one
+and rename them as 'ckpt.pt'
 
 # nanoGPT
 
